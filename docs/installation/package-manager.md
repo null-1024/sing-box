@@ -21,7 +21,7 @@ icon: material/package
 
     ```bash
     sudo dnf -y install dnf-plugins-core
-    sudo dnf config-manager --add-repo https://sing-box.app/sing-box.repo
+    sudo dnf config-manager addrepo --from-repofile='https://sing-box.app/sing-box.repo'
     sudo dnf install sing-box # or sing-box-beta
     ```
     (This applies to any distribution that uses `dnf` as the package manager: Fedora, CentOS, even OpenSUSE with DNF installed.)
